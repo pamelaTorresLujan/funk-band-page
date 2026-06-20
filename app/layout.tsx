@@ -1,18 +1,6 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono, Anton } from 'next/font/google'
 import './globals.css'
-
-const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-})
-const anton = Anton({
-  variable: '--font-anton',
-  weight: '400',
-  subsets: ['latin'],
-})
 
 export const metadata: Metadata = {
   title: 'NAPA SURFERS — Funk crudo desde 420',
@@ -32,10 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html
-      lang="es"
-      className={`dark ${geistSans.variable} ${geistMono.variable} ${anton.variable} bg-background`}
-    >
+    <html lang="es" className="dark bg-background">
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
