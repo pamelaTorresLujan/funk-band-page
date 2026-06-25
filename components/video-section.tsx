@@ -2,14 +2,14 @@ import { SectionHeading } from "./section-heading"
 
 const VIDEOS = [
   {
-    id: "sOloZUBjQwY",
-    title: "Sesión en vivo",
-    note: "Directo desde el sótano",
+    id: "cMnx7QGOpdg",
+    title: "Dulce de leche",
+    note: "Lyrics",
   },
   {
-    id: "8XmxNr_h9lI",
-    title: "Video oficial",
-    note: "Groove + cámara en mano",
+    id: "loxa5-CJiKo",
+    title: "El Mundo Es Tuyo",
+    note: "Lyrics",
   },
 ]
 

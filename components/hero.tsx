@@ -49,7 +49,7 @@ export function Hero() {
           className="mt-12 inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.3em] text-foreground/60 transition-colors hover:text-foreground"
         >
           <ArrowDown className="size-3.5 animate-bounce" />
-          Bajá el volumen, subí el ritmo
+          Subí el volumen, subí el ritmo
         </a>
       </div>
     </section>

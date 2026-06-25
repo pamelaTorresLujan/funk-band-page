@@ -1,7 +1,7 @@
 const ITEMS = [
   "NAPA SURFERS",
   "SINCE 420",
-  "SURFEANDO",
+  "FUNK",
   "GROOVE",
 ]
 

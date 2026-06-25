@@ -2,33 +2,43 @@ import { SectionHeading } from "./section-heading"
 
 const GALLERY = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-19%20at%2011.15.24%20PM%20%284%29-A7v6QrH8K7QBLRb51PCMflT5JW3aNf.jpeg",
-    alt: "Guitarrista tocando una Stratocaster en vivo",
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/roman.jpeg",
+    alt: "",
     span: "row-span-2",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-19%20at%2011.15.24%20PM%20%283%29-Mq5iJjW9Sgmzkxa0559vKHwHMTfjy6.jpeg",
-    alt: "Percusionista con camisa floreada tocando campanas",
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/diego.jpeg",
+    alt: "",
     span: "",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-19%20at%2011.15.24%20PM%20%288%29-d3s6Khb9PE0URwRnXkDTuclpKfAxfo.jpeg",
-    alt: "Vocalista con jersey de los Ravens cantando",
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/gabi.jpeg",
+    alt: "",
     span: "",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-19%20at%2011.15.24%20PM%20%286%29-gTlqCl9fkHOFWtU3RaJKKjN4LMtAKB.jpeg",
-    alt: "Bajista con buzo verde tocando un bajo rojo",
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/mati.jpeg",
+    alt: "",
+    span: "",
+  },
+  {
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/piru.jpeg",
+    alt: "",
     span: "row-span-2",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-19%20at%2011.15.24%20PM%20%285%29-23B4UJxi2c91xGWa4b3rRsG08P1cnk.jpeg",
-    alt: "Baterista con gorro morado detrás de un platillo",
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/yamil.jpeg",
+    alt: "",
     span: "",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-19%20at%2011.18.04%20PM-iMaX5DE8O4CpRxqDd6iUTI5EmXPFnL.jpeg",
-    alt: "Vocalista cantando intensamente en blanco y negro",
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/ivan.jpeg",
+    alt: "",
+    span: "row-span-2",
+  },
+    {
+    src: "https://suoepyf266q0sr5p.public.blob.vercel-storage.com/integrantes/pame.jpeg",
+    alt: "",
     span: "",
   },
 ]
@@ -49,7 +59,7 @@ export function BandSection() {
         </div>
         <div>
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-secondary">
-            Ocho cabezas, un solo groove
+            Ocho integrantes, un mismo pulso
           </p>
           <h3 className="mt-3 font-heading text-4xl uppercase leading-tight text-foreground md:text-5xl">
             Una fiesta que no querés que termine
